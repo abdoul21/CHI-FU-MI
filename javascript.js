@@ -31,13 +31,13 @@ for (let index = 0; index < 3; index++) {
 
     } else if (mainjoueur == "Feuille" && mainordi == "Pierre" || mainjoueur == "Ciseaux" && mainordi == "Feuille" || mainjoueur == "Pierre" && mainordi == "Ciseaux") {
         scorJoueur++;
-        alert('gagner score joueur' + scorJoueur);
+        alert('gagner score joueur ' + scorJoueur);
 
 
     }
 } if (scorJoueur > scorOrdi) {
-    alert("joueur a gagner" + scorJoueur + "points contre " + scorOrdi + "point" )
+    alert("joueur a gagner " + scorJoueur + " points contre " + scorOrdi + " point" )
 }else if (scorJoueur < scorOrdi){
-    alert("ordi a gagner" + scorOrdi + " point contre " + scorJoueur + "point")
+    alert("ordi a gagner " + scorOrdi + " point contre " + scorJoueur + " point")
 }
 
